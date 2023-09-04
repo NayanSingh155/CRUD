@@ -1,7 +1,7 @@
 const express = require("express")
 const fs=require("fs")
 const app= express()
-app.use(express.json())//middleware
+// app.use(express.json())//middleware
 
 app.get("/data",(req,res)=>{
     const dataStream=fs.createReadStream("./data.json","utf-8")
