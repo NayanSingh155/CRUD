@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "name": "crud",
+  "description": "A CRUD App using Node Js.\r # npm init -y \r For creating a node Js project.\r # create index.js file \r Create index.js file by your own.\r # npm i express nodemon\r install dependencies- express and nodemon and check it into package-lock-json\r # go to package.json file and write after \"script\"\r \"server\":\"nodemon index.js\"\r # Now import express first in index.js\r <!-- const express=require('express')\r const app= express()",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NayanSingh155/CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NayanSingh155/CRUD/issues"
+  },
+  "homepage": "https://github.com/NayanSingh155/CRUD#readme"
+}
